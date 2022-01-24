@@ -4,8 +4,17 @@ A Unity Based Gungeon-Like Project Template
 
 ## 프로젝트 요소 설명
 
-Test3dTo2dTile 씬에 Floor, InnerWalls, Void 오브젝트 아래에 미리 정의된 타일 프리팹이 배치되어 있습니다. (각각의 카메라 프로젝션에서 잘 표시되도록 높이와 위치가 정해져 있음)
+![image](https://user-images.githubusercontent.com/39817813/150804790-20a5d15e-d730-4fda-98b8-73aef8088067.png)
+
+Test3dTo2dTile 씬에 Floor, InnerWalls, Void 오브젝트의 자식으로 미리 정의된 타일 프리팹이 배치되어 있습니다. (각각의 카메라 프로젝션에서 잘 표시되도록 높이와 위치가 정해져 있음)
+
+![image](https://user-images.githubusercontent.com/39817813/150805054-2a474bba-aba1-42a7-af74-0cdb2b52b45f.png)
+
 Toggle Grid Snapping 기능을 활성화한 다음 프리팹을 해당하는 오브젝트 아래에 배치하고, 씬 뷰에서 XZ축으로 이동시키는것으로 3D 워크플로우상에서 2D와 비슷한 효과를 누릴 수 있습니다.
+
+![image](https://user-images.githubusercontent.com/39817813/150805723-d2683323-1f0b-490f-aaca-549f0f23cbdc.png)
+
+Agent 오브젝트의 자식으로 NavMesh를 사용하여 특정 오브젝트(\[FollowTarget\]gnome)을 추적하는 에이전트가 둘 배치되어 있습니다.
 
 ## 템플릿 사용으로 얻을 수 있는 이점
 
