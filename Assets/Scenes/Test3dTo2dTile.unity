@@ -2723,7 +2723,7 @@ GameObject:
   - component: {fileID: 677800526}
   - component: {fileID: 677800525}
   m_Layer: 0
-  m_Name: Humanoid
+  m_Name: '[Agent]Humanoid'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3023,7 +3023,7 @@ GameObject:
   - component: {fileID: 715149020}
   - component: {fileID: 715149019}
   m_Layer: 0
-  m_Name: Humanoid (1)
+  m_Name: '[Agent]Humanoid'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3042,7 +3042,7 @@ Transform:
   m_Children:
   - {fileID: 146350602}
   m_Father: {fileID: 1497028612}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &715149019
 MonoBehaviour:
@@ -5442,7 +5442,7 @@ GameObject:
   - component: {fileID: 1425104472}
   - component: {fileID: 1425104471}
   m_Layer: 0
-  m_Name: gnome
+  m_Name: '[FollowTarget]gnome'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5460,7 +5460,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1497028612}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!64 &1425104471
 MeshCollider:
@@ -5833,8 +5833,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 677800524}
-  - {fileID: 1425104470}
   - {fileID: 715149018}
+  - {fileID: 1425104470}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
